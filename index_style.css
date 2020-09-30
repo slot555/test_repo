@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  border: 0px solid black;
+  width: 100vw;
+  height: 99vh;
+}
+a.menu{
+  text-decoration: none;
+  color: #000;
+  font-family: Arial;
+}
+a.menu:hover{
+  text-decoration: none;
+  color: #000;
+  font-family: Arial;
+}
+a#orghim_logo{
+  display: block;
+  width: 20vw;
+  height: 22.9vw;
+  background: url(pic/logo_ru.png);
+  background-size: cover;
+  position: absolute;
+  top: 5vh;
+  left: 44vw;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+a#menu_company{
+  display: block;
+  width: 20vw;
+  height: 22.93vw;
+  background: url(pic/hex.png);
+  background-size: cover;
+  position: absolute;
+  font-size: 2.3vw;
+  line-height: 22.93vw;
+  text-align: center;
+  top: 20vh;
+  left: 20vw;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+a#menu_client{
+  display: block;
+  width: 20vw;
+  height: 22.93vw;
+  background: url(pic/hex.png);
+  background-size: cover;
+  position: absolute;
+  font-size: 2.3vw;
+  line-height: 22.93vw;
+  text-align: center;
+  top: 24vh;
+  left: 70vw;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+a#menu_services{
+  display: block;
+  width: 14vw;
+  height: 16.05vw;
+  background: url(pic/hex.png);
+  background-size: cover;
+  position: absolute;
+  font-size: 1.61vw;
+  line-height: 16.05vw;
+  text-align: center;
+  top: 55vh;
+  left: 45vw;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+a#menu_contacts{
+  display: block;
+  width: 10vw;
+  height: 11.47vw;
+  background: url(pic/hex.png);
+  background-size: cover;
+  position: absolute;
+  font-size: 1.15vw;
+  line-height: 11.47vw;
+  text-align: center;
+  top: 55vh;
+  left: 7vw;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+a#menu_career{
+  display: block;
+  width: 8vw;
+  height: 9.17vw;
+  background: url(pic/hex.png);
+  background-size: cover;
+  position: absolute;
+  font-size: 0.92vw;
+  line-height: 9.17vw;
+  text-align: center;
+  top: 20vh;
+  left: 5vw;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s;
+  opacity: 0.8;
+}
